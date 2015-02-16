@@ -21,10 +21,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node --harmony index.js"
   },
   "engines": {
-    "iojs": "1.x"
+    "node": "0.12.x"
   },
   "author": "",
   "license": "MIT"
