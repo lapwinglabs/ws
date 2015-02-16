@@ -21,7 +21,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "scripts": {
-    "start": "node --harmony index.js"
+    "start": "NODE_ENV=production node --harmony index.js"
   },
   "engines": {
     "node": "0.12.x"
