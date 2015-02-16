@@ -8,7 +8,7 @@ var Client = require('socket.io-client');
  * Host
  */
 
-var host = 'localhost:5000';
+var host = process.env.HOST || 'localhost:5000';
 
 /**
  * Connect to `localhost:5000`
