@@ -51,3 +51,7 @@ client.on('action', function(payload) {
   console.log(payload);
 })
 ```
+
+## TODO
+
+- authentication
