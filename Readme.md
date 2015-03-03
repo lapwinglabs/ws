@@ -34,7 +34,6 @@ Messenger:
 ```js
 var Messenger = require('socket.io-client');
 var messenger = Messenger.connect('ws://ws.lapwinglabs.com');
-var assert = require('assert');
 
 messenger.emit('action', { k: v });
 ```
